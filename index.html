@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Little Learners World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">Little Learners World</a>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="learning.html">Learning Hub</a>
+        <a href="colors.html">Colors</a>
+        <a href="numbers.html">Numbers</a>
+        <a href="animals.html">Animals</a>
+        <a href="shapes.html">Shapes</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="games.html">Games</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Fun learning for little kids</p>
+          <h1>Welcome to a colorful Pre-K learning adventure!</h1>
+          <p class="hero-text">This website helps children learn colors, numbers, animals, shapes, and simple activities in a fun and easy way.</p>
+          <div class="hero-buttons">
+            <a class="btn primary" href="learning.html">Start Learning</a>
+            <a class="btn secondary" href="schedule.html">See Weekly Plan</a>
+          </div>
+        </div>
+        <div class="hero-art card-image-wrap">
+          <img src="images/hero-classroom.svg" alt="Happy classroom illustration" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="section-title-wrap">
+        <h2>Choose a learning station</h2>
+        <p>Kids can explore one lesson at a time with bright and simple pages.</p>
+      </div>
+      <div class="grid cards-4">
+        <article class="card topic-card">
+          <img src="images/colors-rainbow.svg" alt="Rainbow and colors" />
+          <h3>Colors</h3>
+          <p>Learn bright colors with fun clickable color cards.</p>
+          <a class="btn small" href="colors.html">Explore</a>
+        </article>
+        <article class="card topic-card">
+          <img src="images/numbers-blocks.svg" alt="Counting blocks" />
+          <h3>Numbers</h3>
+          <p>Practice counting from 1 to 10 with playful objects.</p>
+          <a class="btn small" href="numbers.html">Explore</a>
+        </article>
+        <article class="card topic-card">
+          <img src="images/animals-friends.svg" alt="Friendly animals" />
+          <h3>Animals</h3>
+          <p>Meet animal friends and learn their names.</p>
+          <a class="btn small" href="animals.html">Explore</a>
+        </article>
+        <article class="card topic-card">
+          <img src="images/shapes-fun.svg" alt="Fun shapes" />
+          <h3>Shapes</h3>
+          <p>Find circles, squares, triangles, and rectangles.</p>
+          <a class="btn small" href="shapes.html">Explore</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section soft-bg">
+      <div class="container">
+        <div class="section-title-wrap">
+          <h2>Fun learning slideshow</h2>
+          <p>Each slide shows a new activity for kids.</p>
+        </div>
+        <div class="slideshow card">
+          <button class="slide-btn prev" aria-label="Previous slide">❮</button>
+          <div class="slides">
+            <div class="slide active">
+              <img src="images/slide-colors.svg" alt="Learning colors slide" />
+              <h3>Color Time</h3>
+              <p>Find your favorite color and say its name.</p>
+            </div>
+            <div class="slide">
+              <img src="images/slide-numbers.svg" alt="Learning numbers slide" />
+              <h3>Counting Time</h3>
+              <p>Count stars, balls, and blocks together.</p>
+            </div>
+            <div class="slide">
+              <img src="images/slide-animals.svg" alt="Learning animals slide" />
+              <h3>Animal Time</h3>
+              <p>Meet cute animals and learn what they are called.</p>
+            </div>
+            <div class="slide">
+              <img src="images/slide-shapes.svg" alt="Learning shapes slide" />
+              <h3>Shape Time</h3>
+              <p>Look for circles, squares, and triangles around you.</p>
+            </div>
+          </div>
+          <button class="slide-btn next" aria-label="Next slide">❯</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="section-title-wrap">
+        <h2>This week in our classroom</h2>
+        <p>A simple weekly schedule makes the website feel like a real Pre-K class.</p>
+      </div>
+      <div class="schedule-preview grid cards-5">
+        <div class="card day-card"><h3>Monday</h3><p>Colors Day</p></div>
+        <div class="card day-card"><h3>Tuesday</h3><p>Numbers Day</p></div>
+        <div class="card day-card"><h3>Wednesday</h3><p>Animals Day</p></div>
+        <div class="card day-card"><h3>Thursday</h3><p>Shapes Day</p></div>
+        <div class="card day-card"><h3>Friday</h3><p>Quiz & Play</p></div>
+      </div>
+      <div class="center-wrap"><a class="btn primary" href="schedule.html">Open Full Schedule</a></div>
+    </section>
+
+    <section class="section confetti-bg">
+      <div class="container">
+        <div class="section-title-wrap">
+          <h2>Quick quiz</h2>
+          <p>Try a simple question made for young learners.</p>
+        </div>
+        <div class="quiz card">
+          <p class="quiz-question">Which shape has three sides?</p>
+          <div class="quiz-options">
+            <button class="quiz-btn" data-correct="false">Circle</button>
+            <button class="quiz-btn" data-correct="true">Triangle</button>
+            <button class="quiz-btn" data-correct="false">Square</button>
+          </div>
+          <p class="quiz-result"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="top-btn" aria-label="Go to top">⬆</button>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Little Learners World</h3>
+        <p>A fun and educational multi-page website for Pre-K children.</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="learning.html">Learning Hub</a></li>
+          <li><a href="schedule.html">Weekly Schedule</a></li>
+          <li><a href="games.html">Mini Games</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

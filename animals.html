@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animals | Little Learners World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+<header class="site-header"><div class="container nav-wrap"><a href="index.html" class="logo">Little Learners World</a><button class="menu-toggle" aria-label="Open menu">☰</button><nav class="site-nav"><a href="index.html">Home</a><a href="learning.html">Learning Hub</a><a href="colors.html">Colors</a><a href="numbers.html">Numbers</a><a href="animals.html">Animals</a><a href="shapes.html">Shapes</a><a href="schedule.html">Schedule</a><a href="games.html">Games</a></nav></div></header>
+<main>
+  <section class="page-banner green-bg">
+    <div class="container center-text">
+      <p class="eyebrow">Animals Lesson</p>
+      <h1>Meet our animal friends</h1>
+      <p>Click an animal card to learn its name.</p>
+    </div>
+  </section>
+  <section class="container section">
+    <div class="grid cards-4">
+      <button class="card animal-card" data-title="Lion" data-text="The lion is a big wild cat."><span class="animal-emoji">🦁</span><h3>Lion</h3></button>
+      <button class="card animal-card" data-title="Elephant" data-text="The elephant has a long trunk."><span class="animal-emoji">🐘</span><h3>Elephant</h3></button>
+      <button class="card animal-card" data-title="Dog" data-text="A dog can bark and play."><span class="animal-emoji">🐶</span><h3>Dog</h3></button>
+      <button class="card animal-card" data-title="Cat" data-text="A cat can meow and jump."><span class="animal-emoji">🐱</span><h3>Cat</h3></button>
+      <button class="card animal-card" data-title="Monkey" data-text="A monkey likes climbing trees."><span class="animal-emoji">🐵</span><h3>Monkey</h3></button>
+      <button class="card animal-card" data-title="Rabbit" data-text="A rabbit has long ears."><span class="animal-emoji">🐰</span><h3>Rabbit</h3></button>
+      <button class="card animal-card" data-title="Fish" data-text="A fish swims in water."><span class="animal-emoji">🐟</span><h3>Fish</h3></button>
+      <button class="card animal-card" data-title="Bird" data-text="A bird can fly in the sky."><span class="animal-emoji">🐦</span><h3>Bird</h3></button>
+    </div>
+  </section>
+</main>
+<div class="modal" id="infoModal"><div class="modal-content"><button class="close-modal" aria-label="Close modal">×</button><h2 class="modal-title"></h2><p class="modal-text"></p></div></div>
+<button class="top-btn" aria-label="Go to top">⬆</button>
+<footer class="site-footer"><div class="container"><p>Animal friends are everywhere!</p></div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>

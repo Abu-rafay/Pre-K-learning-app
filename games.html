@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Games | Little Learners World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+<header class="site-header"><div class="container nav-wrap"><a href="index.html" class="logo">Little Learners World</a><button class="menu-toggle" aria-label="Open menu">☰</button><nav class="site-nav"><a href="index.html">Home</a><a href="learning.html">Learning Hub</a><a href="colors.html">Colors</a><a href="numbers.html">Numbers</a><a href="animals.html">Animals</a><a href="shapes.html">Shapes</a><a href="schedule.html">Schedule</a><a href="games.html">Games</a></nav></div></header>
+<main>
+  <section class="page-banner orange-bg">
+    <div class="container center-text">
+      <p class="eyebrow">Mini Games</p>
+      <h1>Play and learn</h1>
+      <p>Small games keep kids active and engaged.</p>
+    </div>
+  </section>
+  <section class="container section">
+    <div class="grid cards-2">
+      <div class="card game-card">
+        <h2>Color Match</h2>
+        <p>Which one is the red color?</p>
+        <div class="quiz-options">
+          <button class="quiz-btn" data-correct="true">🟥</button>
+          <button class="quiz-btn" data-correct="false">🟦</button>
+          <button class="quiz-btn" data-correct="false">🟩</button>
+        </div>
+        <p class="quiz-result"></p>
+      </div>
+      <div class="card game-card">
+        <h2>Shape Match</h2>
+        <p>Which shape has three sides?</p>
+        <div class="quiz-options">
+          <button class="quiz-btn" data-correct="false">Circle</button>
+          <button class="quiz-btn" data-correct="true">Triangle</button>
+          <button class="quiz-btn" data-correct="false">Rectangle</button>
+        </div>
+        <p class="quiz-result"></p>
+      </div>
+    </div>
+  </section>
+</main>
+<button class="top-btn" aria-label="Go to top">⬆</button>
+<footer class="site-footer"><div class="container"><p>Playing helps children learn better.</p></div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>

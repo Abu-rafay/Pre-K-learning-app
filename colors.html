@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colors | Little Learners World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+<header class="site-header"><div class="container nav-wrap"><a href="index.html" class="logo">Little Learners World</a><button class="menu-toggle" aria-label="Open menu">☰</button><nav class="site-nav"><a href="index.html">Home</a><a href="learning.html">Learning Hub</a><a href="colors.html">Colors</a><a href="numbers.html">Numbers</a><a href="animals.html">Animals</a><a href="shapes.html">Shapes</a><a href="schedule.html">Schedule</a><a href="games.html">Games</a></nav></div></header>
+<main>
+  <section class="page-banner yellow-bg">
+    <div class="container center-text">
+      <p class="eyebrow">Colors Lesson</p>
+      <h1>Let’s learn colors</h1>
+      <p>Click a color and see its name.</p>
+    </div>
+  </section>
+  <section class="container section">
+    <div class="grid cards-4 color-grid">
+      <button class="color-card color-red" data-title="Red" data-text="Red is bright and bold.">Red</button>
+      <button class="color-card color-blue" data-title="Blue" data-text="Blue looks like the sky.">Blue</button>
+      <button class="color-card color-green" data-title="Green" data-text="Green looks like grass.">Green</button>
+      <button class="color-card color-yellow" data-title="Yellow" data-text="Yellow looks like the sun.">Yellow</button>
+      <button class="color-card color-orange" data-title="Orange" data-text="Orange looks like an orange fruit.">Orange</button>
+      <button class="color-card color-purple" data-title="Purple" data-text="Purple is a fun magical color.">Purple</button>
+      <button class="color-card color-pink" data-title="Pink" data-text="Pink is soft and pretty.">Pink</button>
+      <button class="color-card color-brown" data-title="Brown" data-text="Brown looks like tree bark.">Brown</button>
+    </div>
+  </section>
+</main>
+<div class="modal" id="infoModal"><div class="modal-content"><button class="close-modal" aria-label="Close modal">×</button><h2 class="modal-title"></h2><p class="modal-text"></p></div></div>
+<button class="top-btn" aria-label="Go to top">⬆</button>
+<footer class="site-footer"><div class="container"><p>Great job learning colors!</p></div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
